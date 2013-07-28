@@ -1,0 +1,97 @@
+@media(min-width: 980px) { body { padding-top: 40px; } }
+.tags-bucket {
+}
+.tag, .tag-input {
+    width: 277px;
+    height: 60px;
+
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 22px;
+}
+.tag a, .tag-input a {
+    cursor: pointer;
+}
+.tag:nth-child(4n+4), .tag-input:nth-child(4n+4) {
+    margin-right: 0;
+}
+.tag-input {
+    color: #333;
+    border: 1px dashed #999;
+    background: transparent;
+}
+.tag-input input[type="text"], .tag-input input[type="text"]:focus {
+    color: #333;
+    outline: none;
+    border: transparent;
+    box-shadow: none;
+    background: transparent;
+    text-align: center;
+    padding: 0px;
+    font-size: 17px;
+    width: 78%;
+}
+.tag-input input::-webkit-input-placeholder {
+    color: #333;
+    font-size: 17px;
+}
+.tag-input input:-moz-placeholder {
+    color: #333;
+    font-size: 17px;
+}
+.tag-input input::-moz-placeholder {
+    color: #333;
+    font-size: 17px;
+}
+.tag-input input:-ms-input-placeholder {
+    color: #333;
+    font-size: 17px;
+}
+.tag-blue {
+    color: #fff;
+    background-color: deepskyblue;
+}
+@media(min-width: 1200px) {
+    .tag, .tag-input {
+        width: 277.5px;
+    }
+}
+@media(max-width: 1199px) {
+    .tag, .tag-input {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 1199px) and (min-width: 979px) {
+    .tag, .tag-input {
+        width: 227.5px;
+    }
+}
+@media(max-width: 979px) and (min-width: 768px) {
+    .tag, .tag-input {
+        width: 173.5px;
+    }
+}
+@media(max-width: 767px) {
+    .tag, .tag-input {
+        width: 48.333%;
+        height: 40px;
+        padding: 10px;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+    .tag:nth-child(2n+2), .tag-input:nth-child(2n+2) {
+        margin-right: 0;
+    }
+}

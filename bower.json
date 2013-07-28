@@ -1,0 +1,27 @@
+{
+  "name": "angular-ui-tags",
+  "version": "0.0.1",
+  "main": "./ui-tags.js",
+  "description": "Directive to handle content tags",
+  "author": "https://github.com/joaoneto/ui-tags/graphs/contributors",
+  "homepage": "http://ui-tags.github.io/",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test*",
+    "demo*",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.x",
+    "jquery": "~1.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.x",
+    "bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+  }
+}
