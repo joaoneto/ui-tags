@@ -7,7 +7,7 @@ files = [
   'bower_components/jquery/jquery.js',
   'bower_components/angular/angular.js',
   'bower_components/angular-mocks/angular-mocks.js',
-  'src/tags.js',
+  'src/angular-ui-tags.js',
   'test/tags.js',
 ];
 browsers = ['PhantomJS'];
