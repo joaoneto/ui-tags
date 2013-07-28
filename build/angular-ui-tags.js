@@ -1,7 +1,3 @@
-/**
- * UI tags
- */
-
 angular.module('ui.tags', [])
   .directive('uiTags', function () {
     return {
