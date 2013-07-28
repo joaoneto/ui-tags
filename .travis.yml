@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - 0.8
+branches:
+  only:
+    - master
 install:
   - npm install
   - bower install
