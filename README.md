@@ -15,6 +15,8 @@ $ bower install angular-ui-tags
 
 ## Examples
 
+### [Live demo](http://joaoneto.github.io/ui-tags/)
+
 ### Demo in `demo/index.html` folder
 
 ### Html snippet
