@@ -4,7 +4,7 @@ angular-ui-tags
 Tag manager AngularJS directive
 
 ## Requirements
-- ([jQuery](http://arshaw.com/js/fullcalendar-1.5.3/fullcalendar/gcal.js))
+- ([jQuery](http://code.jquery.com/jquery-1.10.2.js))
 - ([AngularJS](http://code.angularjs.org/1.0.7/angular.js))
 
 ## Install
