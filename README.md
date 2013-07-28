@@ -1,11 +1,18 @@
-ui-tags
-=======
+angular-ui-tags
+===============
 
 Tag manager AngularJS directive
 
 ## Requirements
 - ([jQuery](http://arshaw.com/js/fullcalendar-1.5.3/fullcalendar/gcal.js))
 - ([AngularJS](http://code.angularjs.org/1.0.7/angular.js))
+
+## Install
+
+```bash
+$ bower install angular-ui-tags
+```
+
 
 ## Examples
 

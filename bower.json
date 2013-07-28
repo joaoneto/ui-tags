@@ -1,7 +1,7 @@
 {
   "name": "angular-ui-tags",
-  "version": "0.1.2",
-  "main": "./ui-tags.js",
+  "version": "0.1.3",
+  "main": "./build/angular-ui-tags.js",
   "description": "Directive to handle content tags",
   "author": "https://github.com/joaoneto/ui-tags/graphs/contributors",
   "license": "MIT",

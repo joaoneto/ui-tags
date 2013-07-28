@@ -16,6 +16,7 @@
 }
 .tag a, .tag-input a {
     cursor: pointer;
+    text-decoration: none;
 }
 .tag:nth-child(4n+4), .tag-input:nth-child(4n+4) {
     margin-right: 0;
