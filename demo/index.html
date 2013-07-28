@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>AngularUI Tags for AngularJS</title>
 
-    <link rel="stylesheet" href="../bower_components/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bower_components/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="tagsDemo.css">
 
@@ -19,29 +18,22 @@
     <script src="tagsDemo.js"></script>
 </head>
 <body>
-    <header class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="dropdown pull-left">
-                    <a class="brand dropdown-toggle" role="button" data-toggle="dropdown" href="#">
-                        AngularUI
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                        <li><a href="https://github.com/angular-ui/"><strong>Related Projects:</strong></a></li>
-                        <li class="divider"></li>
-                        <li><a href="http://angular-ui.github.com/bootstrap/">Bootstrap</a></li>
-                        <li><a href="http://angular-ui.github.com/ng-grid/">Grid</a></li>
-                        <li><a href="https://github.com/angular-ui/AngularJs.tmbundle">AngularJS.tmbundle</a></li>
-                        <li><a href="http://angular-ui.github.com/ui-router/">Router <span
-                                class="label label-success">New!</span></a></li>
-                        <li><a href="http://angular-ui.github.com/Tips-n-Tricks/">Tips-n-Tricks <span
-                                class="label">WIP</span></a></li>
-                    </ul>
-                </div>
+    <header class="navbar">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand">UI-Tags</a>
+
+            <div class="nav-collapse collapse navbar-responsive-collapse">
             </div>
         </div>
     </header>
+
+
     <div role="main">
         <div class="container">
             <section id="directives-calendar" ng-controller="TagsCtrl">
@@ -49,9 +41,8 @@
                     <h1>UI-Tags</h1>
                     <code>{{form}}</code>
                 </div>
-
+            
                 <ui-tags tag-classes="tag tag-blue" tag-input-classes="tag tag-input" tag-lightness="white" tag-input-lightness="black" class="row-fluid tags-bucket" tags="form.tags"></ui-tags>
-                <ui-tags tag-classes="tag tag-blue" tag-input-classes="tag tag-input" tag-lightness="white" tag-input-lightness="black" class="row-fluid tags-bucket" tags="form.tags1"></ui-tags>
 
             </section>
         </div>
