@@ -13,7 +13,6 @@ Tag manager AngularJS directive
 $ bower install angular-ui-tags
 ```
 
-
 ## Examples
 
 ### Demo in `demo/index.html` folder
@@ -21,6 +20,8 @@ $ bower install angular-ui-tags
 ### Html snippet
 
 ```html
+<script src="../bower_components/angular-ui-tags/build/angular-ui-tags.min.js"></script>
+
 <ui-tags tag-classes="tag tag-blue" tag-input-classes="tag tag-input" tag-lightness="white" tag-input-lightness="black" class="row-fluid tags-bucket" tags="form.tags"></ui-tags>
 ```
 ### Javascript snippet
